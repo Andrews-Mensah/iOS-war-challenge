@@ -87,11 +87,13 @@ struct ContentView: View {
                         
                         message = "Game Over, Player 1 Wins"
                         
-                        } else{
+                        } else if (cpuScore > playerScore){
                             message = "Game Over, CPU Wins"
+                        } else {
+                            message = "Game was a drawn game"
                         }
                       
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 5){
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 3){
                             resetGame ()
                         }
                         
