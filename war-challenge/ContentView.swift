@@ -24,14 +24,15 @@ struct ContentView: View {
             VStack{
                 Spacer()
                 Image("logo")
+                    .padding(.bottom)
                 
-                Spacer()
-                HStack{
-                    Spacer()
+//                Spacer()
+                HStack(spacing: 50){
+//                    Spacer()
                     Image(playerCard)
-                    Spacer()
+//                    Spacer()
                     Image(cpuCard)
-                    Spacer()
+//                    Spacer()
                     
                 }
                 Spacer()
@@ -67,7 +68,15 @@ struct ContentView: View {
                     Image("dealbutton")
                 })
                 
-                Spacer()
+                if(playerScore == 10){
+                    
+                    Text("Game Over, Player 1 Wins")
+                    
+                } else if (cpuScore == 10){
+                    Text("Game Over, CPU Wins")
+                }
+                
+//                Spacer()
                 HStack{
                     Spacer()
                     VStack{
