@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30EAA7F928509B190003AE28 /* war-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "war-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EAA7F928509B190003AE28 /* Andy Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Andy Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EAA7FC28509B190003AE28 /* war_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeApp.swift; sourceTree = "<group>"; };
 		30EAA7FE28509B190003AE28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30EAA80028509B1D0003AE28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		30EAA7FA28509B190003AE28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30EAA7F928509B190003AE28 /* war-challenge.app */,
+				30EAA7F928509B190003AE28 /* Andy Cards.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = "war-challenge";
 			productName = "war-challenge";
-			productReference = 30EAA7F928509B190003AE28 /* war-challenge.app */;
+			productReference = 30EAA7F928509B190003AE28 /* Andy Cards.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -281,7 +281,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.war-challenge";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Andy Cards";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +310,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.war-challenge";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Andy Cards";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
