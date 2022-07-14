@@ -50,7 +50,7 @@ struct ContentView: View {
                 Text(message)
                     .foregroundColor(.white)
                     .fontWeight(.bold)
-                    .font(.system(size: 50))
+                    .font(.system(size: 25))
                 
 //                Spacer()
                 
